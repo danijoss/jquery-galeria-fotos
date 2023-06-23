@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jQuery</title>
+    <title>Exercício jQuery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -12,34 +12,15 @@
 </head>
 <body>
     <header>
-        <h1>Galeria de fotos</h1>
-        <button type="button">Nova Imagem +</button>
+        <h1>Lista de tarefas</h1>
     </header>
     <form>
-        <h2>Inserir nova imagem</h2>
-        <input type="url" id="endereco-imagem-nova" required placeholder="URL da imagem" />
-        <button type="submit">Adicionar</button>
-        <button type="reset" id="botao-cancelar">Cancelar</button>
+        <input type="text" id="tarefa-nova" required placeholder="Nome da tarefa" />
+        <button type="submit">Cadastrar</button>
+        
     </form>
     <ul>
-        <li>
-            <img src="./images/foto1.jpg" alt="pintura de um gato">
-            <div class="overlay-imagem-link">
-                <a href="./images/foto1.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
-            </div>
-        </li>
-        <li>
-            <img src="./images/foto2.jpg" alt="pintura de um gato">
-            <div class="overlay-imagem-link">
-                <a href="./images/foto2.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
-            </div>
-        </li>
-        <li>
-            <img src="./images/foto3.jpg" alt="pintura de um gato">
-            <div class="overlay-imagem-link">
-                <a href="./images/foto3.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
-            </div>
-        </li>
+        
     </ul>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="main.js"></script>
